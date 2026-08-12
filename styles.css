@@ -7,84 +7,86 @@
 }
 
 body {
-    background-color: rgb(147, 161, 171);
-    color: black;
+    background-color:#1D2D44
 }
 
 .navbar {
     width: 100%;
-    background: #021e2e;
-    padding: 18px 40px;
+    
+    /* padding: 2px 30px; */
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    border-bottom: 2px solid #334155;
-
+    align-items: center;  
+    /* border-bottom: 1px solid #ffffff; */
+    position:relative;
+    background-color: #C9DCE8;
 }
 
 
 .menuPrincipal {
-    text-decoration: none;
+    display: flex;
+    gap: 20px;
 
 }
 
 .logocr {
-    border-radius: 25% 10%;
-
+    
+    font-size: 24px;
+    font-weight: bold; 
 }
 
 .menuPrincipal a {
     text-decoration: none;
-    color: #cbd5e1;
-    font-size: 16px;
+    color:#3E5C76;
     transition: 0.5s;
-
+    font-size: 25px;
 }
 
 .menuPrincipal a:hover {
     color: white;
     font-size: 30px;
+    
 }
 
-.hamburgen span {}
 
-
-
-.navigation {
-
-    margin: 91px;
-    height: 100vh;
-    display: flex;
-    justify-content: space-between;
-    padding: 18px 40px;
-    align-items: center;
-
-
+.info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 8px;
+    grid-template-columns: repeat(auto-fit, minmax(200px,fr));
 }
 
-.title {
+.title{
 
-    position: absolute;
-    top: 30%;
-    font-size: 25px;
-
-}
-
-.textTitle {
-
-    top: 90%;
-    right: 15%;
-    padding: 30px;
-    letter-spacing: 10px;
+    padding-top: 5%;
+    padding-left: 10%;
+    background: #f3fff6;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-left: 5%;
     font-size: 40px;
 }
+    
 
 
 
-.imgOficce {
-    display: flex;
-    height: 90%;
-    justify-content: space-between;
+.officceImg{
+    grid-row: span 5 / span 5;
+     margin-top: 5%;
+    margin-left: 20%;
+    
+    
+}
 
+.text1{
+    grid-row: span 4 / span 4;
+    grid-row-start: 2;
+    margin-left: 15%;
+    margin-top: 20%;
+    font-size: 35px;
 
 }
+        
+        
