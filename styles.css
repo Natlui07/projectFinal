@@ -1,92 +1,222 @@
-* {
-    margin: 0;
+body{
+      margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-
 }
-
-body {
-    background-color:#1D2D44
-}
-
-.navbar {
-    width: 100%;
-    
-    /* padding: 2px 30px; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;  
-    /* border-bottom: 1px solid #ffffff; */
-    position:relative;
-    background-color: #C9DCE8;
+.special-elite-regular {
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
 
-.menuPrincipal {
-    display: flex;
-    gap: 20px;
-
+/* CSS NAV */
+.navbar {  
+    display: flex ;  
+    align-items: center; 
+    justify-content: space-between;     
 }
 
+.hamburger{
+    display: none;
+
+}
 .logocr {
-    
-    font-size: 24px;
-    font-weight: bold; 
-}
-
-.menuPrincipal a {
-    text-decoration: none;
-    color:#3E5C76;
-    transition: 0.5s;
-    font-size: 25px;
-}
-
-.menuPrincipal a:hover {
-    color: white;
-    font-size: 30px;
-    
-}
-
-
-.info {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    gap: 8px;
-    grid-template-columns: repeat(auto-fit, minmax(200px,fr));
-}
-
-.title{
-
-    padding-top: 5%;
-    padding-left: 10%;
-    background: #f3fff6;
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    margin-left: 5%;
-    font-size: 40px;
-}
-    
-
-
-
-.officceImg{
-    grid-row: span 5 / span 5;
-     margin-top: 5%;
-    margin-left: 20%;
-    
-    
-}
-
-.text1{
-    grid-row: span 4 / span 4;
-    grid-row-start: 2;
-    margin-left: 15%;
-    margin-top: 20%;
-    font-size: 35px;
-
-}
+    background-image:url("img/logo.png");
+    width: 120px;
+    height: 120px;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 50px;
         
+}
+
+.menuPrincipal a{
+    justify-content: space-between;
+    margin-right: 50px;
+    font-size: 20px;
+    transition: 0.5s;
+    color:#3E8FD6;
+    text-decoration: none;   
+}
+
+ .menuPrincipal a:hover {
+    text-decoration: none;
+    color: white;
+    font-size: 25px; 
+    
+}
+
+
+
+
+/* CSS DE HERO */
+
+.main-title{
+    background-color: #EAF6FF;
+    
+}
+.contenedor-hero{
+    
+    display: grid;
+    height: 550px;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+}
+
+.heroText h1{
+  margin-top: 20px;
+  margin-left: 50px;
+  font-size: 35px;
+  color: #1E5A9C;
+}
+
+.heroText p{
+  font-size: 30px;
+  margin:50px;
+  color: #3E8FD6;
+}
+
+ .heroOficce{
+    grid-column: 1;
+    background-image:url(img/image_ce7a0c70.png);
+    height: 400px;
+    width: 550px;
+    grid-column: 2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:50px;
+    border-radius: 50px;
+   
+} 
+
+.heroButton{
+  margin-top: 20px;
+  margin-left: 100px;
+  height:5dvh;
+  width: 200px;
+  border-radius: 7%;
+  border :2px solid #1E5A9C;
+  background-color: rgba(0, 0, 0, 0); 
+  color: #1E5A9C;
+  font-size: 16px;
+  
+}
+
+.heroButton:hover{
+  border: 2px solid #9badba;
+  font-size: 20px;
+  transition: 0.5s;
+  border: 4px solid #1E5A9C;
+
+}
+
+
+
+
+
+/* CSS RESPONSIVO */
+
+@media (max-width: 505px) {
+    .logocr {
+    background-image:url("img/logo.png");
+    width: 110px;
+    height: 110px;
+    margin-left: 30px;
+    padding: 8px;
+    border-radius: 50%;
+        
+}
+
+  /* Mostrar el icono de hamburguesa */
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    margin-right: 50px ;
+  }
+
+  /* Dibujar las líneas de la hamburguesa */
+  .hamburger  span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #1E5A9C;
+    transition: 0.3s;
+  }
+
+  /* Ocultar el menú de enlaces y transformarlo en panel vertical */
+  .menuPrincipal {
+    display: none;
+    flex-direction: block; 
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  .navbar{
+  display: flex;
+  justify-content:space-between;
+  } 
+  
+  .contenedor-hero{
+    
+    display: grid;
+    height: 1000px;
+    width: 100%;
+    grid-template-columns: 1fr ;
+    
+}
+
+.heroOficce{
+    
+    background-image:url(img/image_ce7a0c70.png);
+    height: 500px;
+    width: 300px;
+    grid-column: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 15% ;
+    margin-top: 150px;
+        
+} 
+.heroText h1{
+  margin-top: 20px;
+  margin-left: 10%;
+  font-size: 30px;
+  color: #1E5A9C;
+}
+
+.heroButton{
+  margin-left: 24%;
+  height: 50px;
+  width: 200px;
+  border :2px solid #1E5A9C;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 25%;
+  color: #1E5A9C;
+  font-size: 16px;
+}
+
+}
+
+/* TEXTO CSS */
+
+.sekuya-regular {
+  font-family: "Sekuya", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.special-elite-regular {
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
         
