@@ -81,7 +81,6 @@ body{
     background-size: cover;
     margin:50px;
     border-radius: 50px;
-   
 } 
 
 .heroButton{
@@ -191,47 +190,59 @@ body{
   display: grid;
   margin: 8%;
   grid-template-columns: repeat(3 ,1fr);
-  
-  gap: 30px;
+  gap: 20px;
   
 }
 
 
-
 #card1{
-  background-image: url(img/prueba.jpeg);
-  margin-bottom: 3rem;
-  grid-column: auto;
-  background-size:cover;
+  background-image: url(img/prueba2.jpeg);
   background-repeat: no-repeat;
- height: 200px;
- width: 400px;
-  
+  background-size: cover;
+  border-radius: 50px;
+  margin-bottom: 6rem;
+    
 }
 
 #card2{
   background-image: url(img/card2.jpeg);
-  
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50px;
+  margin-bottom: -4rem;
+    
 }
 #card3{
-  background-image: url();
+  background-image: url(img/card3.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50px;
+  margin-bottom: 8rem;
   
 }
 #card4{
   background-image: url(img/card4.jpeg);
-  margin-top: -3rem;
-  grid-template-columns: 1;
-  
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50px;
+  margin-top: -6rem;
 }
 
 #card5{
-
-  background-image: url(img/card1.jpeg);
-  
+  background-image: url(img/card5.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50px;
+  margin-top: 4rem;
 
 }
+
 #card6{
-  background-image: url(img/card1.jpeg);
+  background-image: url(img/card6.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50px;
+  margin-top: -8rem;
   
 }
 #card7{
@@ -246,8 +257,6 @@ body{
   background-image: url(img/card1.jpeg);
   
 }
-
-
 
 
 
