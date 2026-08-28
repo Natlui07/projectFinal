@@ -1,12 +1,9 @@
 body{
-      margin: 0;
+    margin: 0;
     padding: 0;
+    background-color: #EAF6FF;
 }
-.special-elite-regular {
-  font-family: "Special Elite", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
+
 
 
 /* CSS NAV */
@@ -46,20 +43,16 @@ body{
     
 }
 
-
-
-
 /* CSS DE HERO */
 
 .main-title{
     background-color: #EAF6FF;
+    height: 750px;
+    width: 100%;
     
 }
 .contenedor-hero{
-    
-    display: grid;
-    height: 550px;
-    width: 100%;
+    display: grid; 
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     gap: 10px;
@@ -110,6 +103,148 @@ body{
   transition: 0.5s;
   border: 4px solid #1E5A9C;
 
+}
+/* CSS INFO */
+.info{
+   
+    height: 500px;
+    width: 100%;
+    display: flex;
+}
+.infocontainer{
+  height: 600px;
+  
+  flex-direction:column;
+  background-color: #BFE3FA;
+  margin-bottom: 100px; 
+  color:rgb(28, 43, 87) ;
+  
+  
+}
+.sectionInfo{
+  padding: 80px;
+  padding-top: 0;
+
+}
+
+#sectionInfoTitle{
+  margin-top: 120px;
+  margin-right: 200px;
+  text-align: left;
+  font-size: 40px; 
+}
+
+.sectionInfo p{
+  margin-top: 100px;
+  text-align: end;
+  font-size: 30px;
+}
+
+
+.sectionInfo2{
+  background-color: #EAF6FF;
+  margin-top: -200px;
+  
+}
+.infoContainer2{
+  
+  height: 600px;
+  background-color:#EAF6FF;
+}
+
+.sectionInfo2Photo{
+   background-image: url(img/consultoriaerp.jpeg);
+   width: 500px;
+   height: 400px;
+   background-size: contain;
+   background-repeat: no-repeat;
+   margin-left: 80px;
+   margin-top: -60px;
+   border-radius: 15%;
+   transform: translate3d(0px, 0.56325vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(-12.2973deg) skew(0deg, 0deg);
+}
+.sectionInfo2Text{
+  margin: 50px;
+  font-size:35px;
+  justify-items: end;
+  color: #827b7b;
+
+}
+
+/* TITLE WORK */
+.infowork{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+
+}
+
+
+
+/* CSS PHOTO */
+
+.sectionPhoto{
+  height: 1500px;
+  width: 80%;
+  background-color: #EAF6FF;
+  display: grid;
+  margin: 8%;
+  grid-template-columns: repeat(3 ,1fr);
+  
+  gap: 30px;
+  
+}
+
+
+
+#card1{
+  background-image: url(img/prueba.jpeg);
+  margin-bottom: 3rem;
+  grid-column: auto;
+  background-size:cover;
+  background-repeat: no-repeat;
+ height: 200px;
+ width: 400px;
+  
+}
+
+#card2{
+  background-image: url(img/card2.jpeg);
+  
+}
+#card3{
+  background-image: url();
+  
+}
+#card4{
+  background-image: url(img/card4.jpeg);
+  margin-top: -3rem;
+  grid-template-columns: 1;
+  
+}
+
+#card5{
+
+  background-image: url(img/card1.jpeg);
+  
+
+}
+#card6{
+  background-image: url(img/card1.jpeg);
+  
+}
+#card7{
+  background-image: url(img/card1.jpeg);
+  
+}
+#card8{
+  background-image: url(img/card1.jpeg);
+  
+}
+#card9{
+  background-image: url(img/card1.jpeg);
+  
 }
 
 
@@ -219,4 +354,25 @@ body{
   font-weight: 400;
   font-style: normal;
 }
+
+
+
+
+.montserrat{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100px;
+  font-style: normal;
+  
+}
+
+.google-sans{
+  font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "GRAD" 0;
+}
+
         
