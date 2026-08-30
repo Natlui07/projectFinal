@@ -110,50 +110,27 @@ body{
 /* CSS INFO */
 .info{
    
-    height: 500px;
+    height: 1200px;
     width: 100%;
-    display: flex;
+    display: grid;
+    background-color: #9badba;
 }
-.infocontainer{
+.containerInfo1{
   height: 600px;
   width: 100%;
   flex-direction:column;
-  background-color: #103f5d;
-  margin-bottom: 700px; 
-  color:white; 
+  background-color:#CFF0EA;
   
 }
-.sectionInfo{
-  /* padding: 80px;
-  padding-top: 0; */
-
-}
-
-#sectionInfoTitle{
-  margin-top: 120px;
-  margin-right: 200px;
-  text-align: left;
-  font-size: 40px; 
-}
-
-.sectionInfo p{
-  margin-top: 100px;
-  text-align: end;
-  font-size: 30px;
-}
-
-
-.sectionInfo2{
-  background-color: #EAF6FF;
-  margin-top: -200px;
-  
-}
-.infoContainer2{
-  
+.containerInfo2{
   height: 600px;
   width: 100%;
-  background-color:#EAF6FF;
+
 }
+.containerInfo1Title{
+
+}
+
 
 .sectionInfo2Photo{
    background-image: url(img/consultoriaerp.jpeg);
