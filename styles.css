@@ -67,12 +67,14 @@ body{
   margin-left: 50px;
   font-size: 35px;
   color: #d3d7db;
+  text-align: justify;
 }
 
 .heroText p{
   font-size: 30px;
   margin:50px;
-  color: #3E8FD6;
+  color: #d3d7db;
+  text-align: justify;
 }
 
  .heroOficce{
@@ -94,9 +96,9 @@ body{
   height:5dvh;
   width: 200px;
   border-radius: 7%;
-  border :2px solid #1E5A9C;
+  border :2px solid #d3d7db;
   background-color: rgba(0, 0, 0, 0); 
-  color: #1E5A9C;
+  color: #d3d7db;
   font-size: 16px;
   
 }
@@ -137,6 +139,7 @@ body{
   grid-row: 2;
   grid-column: 2;
   justify-content: center;
+  text-align: justify;
 }
 
 /* CSS CONTAINER 2 */
@@ -147,6 +150,7 @@ body{
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 10px;
+  
 
 }
 
@@ -165,9 +169,10 @@ body{
 .sectionInfo2Text {
   margin: 50px;
   font-size: 40px;
-  color: #827b7b;
+  color: #d3d7db;;
   grid-row: 2;
   grid-column: 2;
+  text-align: justify;
 
 
 }
@@ -180,7 +185,8 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 35px;
+  font-size: 50px;
+  color: #d3d7db;
 
 }
 
@@ -343,12 +349,15 @@ body{
   margin-left: 10%;
   font-size: 30px;
   color: #E3F6F5;
+  text-align: start;
+  
 }
 
 .heroText p{
   font-size: 30px;
   text-align:justify;
   color: #E3F6F5;
+  text-align: justify;
 }
 
 .heroButton{
@@ -385,6 +394,7 @@ body{
   font-size: 50px;
   grid-column: 1;
   margin-top: 20px;
+  text-align: justify;
   
 }
   
@@ -394,7 +404,7 @@ body{
   margin-right: 30px;
   grid-column: 1;
   padding: 20px;
-  text-align:start;
+  text-align: justify;
   
  
 }
@@ -447,7 +457,7 @@ body{
   grid-template-columns: 1fr ;
   gap: 40px;
   margin: 45px;
-  background-color: #E3F6F5;
+  
 }
 
 
