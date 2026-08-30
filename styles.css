@@ -191,7 +191,6 @@ body{
 .sectionPhoto{
   height: 1800px;
   width: 80%;
-  background-color: #EAF6FF;
   display: grid;
   margin: 8%;
   grid-template-columns: repeat(3 ,1fr);
@@ -440,7 +439,91 @@ body{
   font-size: 35px;
 
 }
+/* RESPONSIVO SECTION FOTOS */
+.sectionPhoto{
+  height: auto;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr ;
+  gap: 40px;
+  margin: 45px;
+  background-color: #E3F6F5;
+}
 
+
+#card1{
+  background-image: url(img/prueba2.jpeg);
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  border-radius: 50px;
+  margin-bottom:0;
+ 
+}
+
+#card2{
+  background-image: url(img/card2.jpeg);
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  border-radius: 50px;
+  margin-bottom:0;  
+}
+
+#card3{
+  background-image: url(img/card3.jpeg);
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  border-radius: 50px;
+  margin-bottom:0;
+  
+}
+#card4{
+  background-image: url(img/card4.jpeg);
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  border-radius: 50px;
+  margin-top: 0;
+  margin-bottom:0;
+  
+}
+#card5{
+  background-image: url(img/card5.jpeg);
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  border-radius: 50px;
+  margin-bottom:0;
+  margin-top: 0;
+  
+
+}
+
+#card6{
+  background-image: url(img/card6.jpeg);
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  border-radius: 50px;
+  margin-top: 0;
+  margin-bottom:0;
+  
+  
+}
+#card7{
+  background-image:none
+  
+}
+#card8{
+  background-image: none
+  
+}
+#card9{
+  background-image: none
+  
+}
 
 
 }
