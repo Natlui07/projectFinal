@@ -248,7 +248,14 @@ body{
 /* CSS RESPONSIVO */
 
 @media (max-width: 505px) {
-    .logocr {
+  .main-title{
+    background-color:#1C2541;
+    height: 1300px;
+    width: 100%;
+    
+}
+  
+  .logocr {
     background-image:url("img/Logo\ cr\ SIMPLE.png");
     width: 110px;
     height: 110px;
@@ -297,7 +304,7 @@ body{
   .contenedor-hero{
     
     display: grid;
-    height: 1000px;
+    height: 100px;
     width: 100%;
     grid-template-columns: 1fr ;
     
@@ -312,7 +319,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: 15% ;
-    margin-top: 150px;
+   
         
 } 
 .heroText h1{
