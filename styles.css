@@ -375,58 +375,59 @@ body{
 
 .info{
    
-    height: 1450px;
+    height: 1250px;
     width: 100%;  
     display: grid; 
 }
 
 /* CCS CONTAINER 1 INFO */
 .containerInfo1{
-  height: 900px;
+  height: 700px;
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr;
-  
-  
+  grid-template-columns: 1fr;  
 }
 
 #containerInfo1Title{
-  font-size: 50px;
+  font-size: 45px;
   grid-column: 1;
-  margin-top: 20px;
-  text-align: justify;
+  text-align:start;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 5px;
   
 }
   
 .containerInfo1 p{
-  font-size: 30px;
+  font-size: 25px;
   margin-left: 20px;
   margin-right: 30px;
   grid-column: 1;
-  padding: 20px;
+  padding: 15px;
   text-align: justify;
-  
+  margin-top: -40px;
  
 }
 /* section info 2 */
 
 .containerInfo2{
  display: grid;
-    height: 700px;
+    height: 500px;
     width: 100%;
     grid-template-columns: 1fr ;
-
+    gap: 5px;
 }
 
 .sectionInfo2Photo{
    background-image: url(img/consultoria.png);
-   height: 300px;
-   width: 350px;
+   height: 200px;
+   width:80%;
    background-size: contain;
    grid-column: 1;
-   border-radius: 0;
+   border-radius: 50px;
+   margin-top: -100px;
    margin-left: 40px;
-   margin-top: -60px;
+   margin-bottom: 0px;
   }
 
   .sectionInfo2Text {
@@ -434,15 +435,16 @@ body{
   color: #d3d7db;
   grid-column: 1;
  text-justify:auto;
+ margin-top: 0px;
  
 }
 
 /* RESPONSIVE TITLE WORK */
 .infowork{
   color: #d3d7db;
-  margin-top: 200px;
+  margin-top:0px;
   width:100%;
-  height: 100%;
+  height:40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -451,7 +453,7 @@ body{
 }
 /* RESPONSIVO SECTION FOTOS */
 .sectionPhoto{
-  height: auto;
+  height: 1500px;
   width: 80%;
   display: grid;
   grid-template-columns: 1fr ;
