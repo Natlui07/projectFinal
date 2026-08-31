@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: #1C2541;
+    height: auto;
 }
 
 
@@ -88,6 +89,7 @@ body{
     margin:50px;
     margin-left: 30%;
     border-radius: 50px;
+    transition-timing-function: ease-out;
 } 
 
 .heroButton{
@@ -202,6 +204,7 @@ body{
   grid-template-columns: repeat(3 ,1fr);
   gap: 20px;
   
+  
 }
 
 
@@ -255,17 +258,40 @@ body{
   margin-top: -8rem;
   
 }
-#card7{
-  background-image: url(img/card1.jpeg);
+/* CSS FOOTER */
+.footer{
+  width: 100%;
+  height: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1;
+  
   
 }
-#card8{
-  background-image: url(img/card1.jpeg);
+.footerlogo{
+  background-image: url(img/Logo\ cr\ SIMPLE.png);
+  height: 200px;
+  width: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 20px; ;
   
 }
-#card9{
-  background-image: url(img/card1.jpeg);
+.medios{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 400px; 
+  gap : 30px;
   
+}
+
+.medios a{
+font-size:30px ;
+color: #d3d7db;
+text-decoration: none;
+
 }
 
 
@@ -371,7 +397,6 @@ body{
   width: 300px;
   border :2px solid #E3F6F5;
   background-color: rgba(0, 0, 0, 0);
-  
   color: #E3F6F5;
   font-size: 20px;
 }
