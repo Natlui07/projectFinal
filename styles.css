@@ -287,6 +287,10 @@ body{
     margin-left: 30px;
     padding: 8px;
     border-radius: 50%;
+    background-size: cover;
+    background-position: 6px;
+    margin-top: 10px;
+    border: #EAF6FF solid 2px;
   }
 
   /* Mostrar el icono de hamburguesa */
@@ -342,6 +346,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: 15% ;
+    border: #EAF6FF solid 4px;
   } 
 
 .heroText h1{
@@ -361,12 +366,12 @@ body{
 }
 
 .heroButton{
-  margin-left: 24%;
+  margin-left: 15%;
   height: 50px;
-  width: 200px;
+  width: 300px;
   border :2px solid #E3F6F5;
   background-color: rgba(0, 0, 0, 0);
-  border-radius: 25%;
+  
   color: #E3F6F5;
   font-size: 20px;
 }
@@ -428,6 +433,7 @@ body{
    margin-top: -100px;
    margin-left: 40px;
    margin-bottom: 0px;
+   border: #EAF6FF solid 4px;
   }
 
   .sectionInfo2Text {
@@ -470,6 +476,7 @@ body{
   height: 500px;
   border-radius: 50px;
   margin-bottom:0;
+  border: #EAF6FF solid 4px;
  
 }
 
@@ -480,6 +487,7 @@ body{
   height: 500px;
   border-radius: 50px;
   margin-bottom:0;  
+  border: #EAF6FF solid 4px;
 }
 
 #card3{
@@ -489,6 +497,7 @@ body{
   height: 500px;
   border-radius: 50px;
   margin-bottom:0;
+  border: #EAF6FF solid 4px;
   
 }
 #card4{
@@ -499,6 +508,7 @@ body{
   border-radius: 50px;
   margin-top: 0;
   margin-bottom:0;
+  border: #EAF6FF solid 4px;
   
 }
 #card5{
@@ -509,7 +519,7 @@ body{
   border-radius: 50px;
   margin-bottom:0;
   margin-top: 0;
-  
+  border: #EAF6FF solid 4px; 
 
 }
 
@@ -521,8 +531,8 @@ body{
   border-radius: 50px;
   margin-top: 0;
   margin-bottom:0;
-  
-  
+  border: #EAF6FF solid 4px;
+   
 }
 #card7{
   background-image:none
