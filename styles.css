@@ -484,7 +484,7 @@ text-decoration: none;
 }
 /* RESPONSIVO SECTION FOTOS */
 .sectionPhoto{
-  height: 1500px;
+  height: auto;
   width: 80%;
   display: grid;
   grid-template-columns: 1fr ;
@@ -557,21 +557,43 @@ text-decoration: none;
   margin-top: 0;
   margin-bottom:0;
   border: #EAF6FF solid 4px;
-   
 }
-#card7{
-  background-image:none
+
+  .footer{
+  width: 80%;
+  height: 100px;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-left: 50px;
+  
+  
   
 }
-#card8{
-  background-image: none
+.footerlogo{
+  background-image: url(img/Logo\ cr\ SIMPLE.png);
+  height: 80px;
+  width: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  
   
 }
-#card9{
-  background-image: none
+.medios{
+  grid-column: 1;
+  height: 200px;
+  width: auto;
+  gap : 30px;
+  margin-left: 30px;
   
 }
 
+.medios a{
+font-size:20px ;
+color: #d3d7db;
+text-decoration: none;
+
+}
+   
 
 }
 
