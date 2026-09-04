@@ -408,9 +408,7 @@ body{
 }
 
 /* SECTION INFO  RESPONSIVO*/
-body{
-  width: 100%;
-}
+
 
 .info{
    
@@ -460,12 +458,12 @@ body{
 .sectionInfo2Photo{
    background-image: url(img/consultoria.png);
    height: 200px;
-   width:80%;
+   width: 350px;
    background-size: contain;
    grid-column: 1;
    border-radius: 50px;
    margin-top: -100px;
-   margin-left: 40px;
+   margin-left: 80px;
    margin-bottom: 0px;
    border: #EAF6FF solid 4px;
   }
@@ -493,8 +491,8 @@ body{
 }
 /* RESPONSIVO SECTION FOTOS */
 .sectionPhoto{
-  height: auto;
-  width: 70% ;
+  height: 1500px;
+  width: 400px ;
   /* display: flex; */
   /* align-items: center;
   justify-content: center;
@@ -574,13 +572,13 @@ body{
 }
 
   .footer{
-  width: 300px;
+  width: 500px;
   height: 200px;
   display: flex;
   align-items:center ;
   justify-content: center;
   flex-direction: column; 
-  margin-left:60px; 
+  margin-left:100px; 
  
 }
 
